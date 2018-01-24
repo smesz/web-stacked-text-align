@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'Mosk';
+    src: url("font/MoskExtraBold800.ttf") format('truetype');
+}
+
 body {
     background-color: black;
+    font-family: Mosk;
+    color: rgb(255, 222, 0);
 }
 
 .pattern {
@@ -16,6 +23,29 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 50%;
+    height: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: yellowgreen;
+}
+
+.roundTitle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-40%);
+    font-size: 140px;
+    z-index: 10;
+    text-shadow: 2px 2px black, 1px -1px black, -1px -1px black, -1px 1px black;
+    letter-spacing: 20px;
+    opacity: 0.9;
+}
+
+.roundNumber {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 450px;
+    z-index: 5;
+    opacity: 0.6;
 }
