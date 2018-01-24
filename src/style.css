@@ -32,12 +32,12 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translateX(-50%) translateY(-40%);
+    transform: translateX(-50%) translateY(-20%);
     font-size: 140px;
+    color: white;
+    opacity: 0.8;
     z-index: 10;
-    text-shadow: 2px 2px black, 1px -1px black, -1px -1px black, -1px 1px black;
     letter-spacing: 20px;
-    opacity: 0.9;
 }
 
 .roundNumber {
@@ -47,5 +47,5 @@ body {
     transform: translateX(-50%) translateY(-50%);
     font-size: 450px;
     z-index: 5;
-    opacity: 0.6;
+    opacity: 0.8;
 }
